@@ -2,8 +2,8 @@
 
 Cosas que faltan por hacaer:
 
-- [ ] Instalar y configurar ESLINT
-- [ ] Instalar y configurar Husky
+- [x] Instalar y configurar ESLINT
+- [x] Instalar y configurar Husky
 - [ ] Instalar y configurar Commitlint
 - [ ] Definir las utilidades que deberá tener la libreria
     - [ ] Utilidad 1
