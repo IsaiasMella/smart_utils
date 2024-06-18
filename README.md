@@ -1,6 +1,6 @@
 # utility_lib
 
-Cosas que faltan por hacaer:
+Cosas que faltan por hacer:
 
 - [x] Instalar y configurar ESLINT
 - [x] Instalar y configurar Husky
