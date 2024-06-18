@@ -1,14 +1,25 @@
 {
-	"name": "utility_lib",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"scripts": {
-		"build": "tsc && vite build"
-	},
-	"devDependencies": {
-		"@types/node": "^20.14.4",
-		"typescript": "^5.2.2",
-		"vite": "^5.2.0"
-	}
+  "name": "utility_lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint . --fix",
+    "check:types": "tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/node": "^20.14.4",
+    "eslint": "9.5.0",
+    "globals": "^15.6.0",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^7.13.1",
+    "vite": "^5.2.0",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^12.1.0"
+  }
 }
