@@ -1,11 +1,11 @@
-# utility_lib
+# Smart Utils 🔧
 
 Cosas que faltan por hacer:
 
 - [x] Instalar y configurar ESLINT
 - [x] Instalar y configurar Husky
 - [x] Instalar y configurar Commitlint
-- [ ] Cambiar el nombre al proyecto porque sino NPM no nos va a dejar publicarlo por duplicidad de nombre (cada libreria debe tener un nombre unico si es publica)
+- [x] Cambiar el nombre al proyecto porque sino NPM no nos va a dejar publicarlo por duplicidad de nombre (cada libreria debe tener un nombre unico si es publica)
 - [ ] Definir las utilidades que deberá tener la libreria
     - [ ] Manipulación de Arrays
     - [ ] Manipulación de Objetos
