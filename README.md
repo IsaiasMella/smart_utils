@@ -7,9 +7,9 @@ Cosas que faltan por hacer:
 - [x] Instalar y configurar Commitlint
 - [x] Cambiar el nombre al proyecto porque sino NPM no nos va a dejar publicarlo por duplicidad de nombre (cada libreria debe tener un nombre unico si es publica)
 - [ ] Definir las utilidades que deberá tener la libreria
-    - [ ] Manipulación de Arrays
+    - [x] Manipulación de Arrays
     - [ ] Manipulación de Objetos
-    - [ ] Manipulación de Cadenas
+    - [x] Manipulación de Cadenas
     - [ ] Manipulación de Números
     - [ ] Utilidades de Fecha y Tiempo
     - [ ] Utilidades de Funciones
