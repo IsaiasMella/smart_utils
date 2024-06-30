@@ -4,7 +4,7 @@ import { isEmpty } from '../checks/isEmpty';
 export const chunk = <T>(array: T[], size: number): T[][] => {
   const result: T[][] = [];
   let index = 0;
-  if (isArray(array) && !isEmpty(array) && typeof size === 'number') {
+  if (isArray(array) && !isEmpty(array) && typeof size === 'number' && size > 0 && size < array.length) {
     while (index < array.length) {
       // Push a chunk of the array into the result, depending on the specified size.
       result.push(array.slice(index, index + size));
