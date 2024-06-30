@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { chunk } from '../arrays/arrays';
+import { chunk } from '../arraysManipulation/arraysManipulation';
 
 describe ('chunk', ()=>{
   it('should return [] if param array is []', ()=>{
