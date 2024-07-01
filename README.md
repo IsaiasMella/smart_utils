@@ -15,5 +15,6 @@ Cosas que faltan por hacer:
     - [x] Utilidades de Funciones
     - [ ] Utilidades de Promesas
     - [ ] Utilidades de Navegador
-- [ ] Instalar y cinfigurar vitest
-- [ ] Instalar y cinfigurar striker (libreria de mutation testing)
+- [X] Instalar y cinfigurar vitest
+- [x] Instalar y cinfigurar striker (libreria de mutation testing)
+- [ ] GitFlow
