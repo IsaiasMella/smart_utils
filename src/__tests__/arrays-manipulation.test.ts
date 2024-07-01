@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { chunk, flattenWithDepth, groupBy, unique } from '../arrays/arrays';
+import { chunk, flattenWithDepth, groupBy, unique } from '../arraysManipulation/arraysManipulation';
 
 describe ('chunk', ()=>{
   it.each([
@@ -36,26 +36,6 @@ describe ('unique', ()=>{
   });
 });
 
-describe ('flatterWithDepth', ()=>{
-  it.each([
-    [[1,[2,2]], 1 ,[1, 2,2]],
-    [[1,[2,[3,4,5],6],7,8], 2, [1,2,3,4,5,6,7,8]],
-    [[1,[2,3,4,5,6],7,8], 2, [1,2,3,4,5,6,7,8]],
-    [[1,2], true, []],
-    // [[true, 5, []]]
-  ])('flatterWithDepth(%o)-> %o', (a, b, expected)=>{
-    //@ts-expect-error We need to check all cases of arguments
-    expect(flattenWithDepth(a, b)).toStrictEqual(expected);
-  });
-  it('should return true if param is ""', () => {
-    //@ts-expect-error We need to check all cases of arguments
-    expect(flattenWithDepth(true, 5)).toStrictEqual([]);
-  });
-  it('should return true if param is ""', () => {
-    expect(flattenWithDepth([], 5)).toStrictEqual([]);
-  });
-  
-});
 
 describe ('flatterWithDepth function', ()=>{
   it.each([
@@ -63,7 +43,6 @@ describe ('flatterWithDepth function', ()=>{
     [[1,[2,[3,4,5],6],7,8], 2, [1,2,3,4,5,6,7,8]],
     [[1,[2,3,4,5,6],7,8], 2, [1,2,3,4,5,6,7,8]],
     [[1,2], true, []],
-    // [[true, 5, []]]
   ])('flatterWithDepth(%o)-> %o', (a, b, expected)=>{
     //@ts-expect-error We need to check all cases of arguments
     expect(flattenWithDepth(a, b)).toStrictEqual(expected);
