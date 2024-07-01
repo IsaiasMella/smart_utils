@@ -12,7 +12,7 @@ Cosas que faltan por hacer:
     - [x] Manipulación de Cadenas
     - [ ] Manipulación de Números
     - [ ] Utilidades de Fecha y Tiempo
-    - [ ] Utilidades de Funciones
+    - [x] Utilidades de Funciones
     - [ ] Utilidades de Promesas
     - [ ] Utilidades de Navegador
 - [ ] Instalar y cinfigurar vitest
