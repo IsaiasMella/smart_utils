@@ -7,6 +7,7 @@ describe ('kebabCase function', ()=>{
     ['STRING manipulation functions', 'string-manipulation-functions'],
     ['   STRING manipulation functions', 'string-manipulation-functions'],
     ['STRING-manipulation functions', 'string-manipulation-functions'],
+    ['-String-Manipulation-', 'string-manipulation']
   ])('kebabCase(%s)-> %s', (a, expected)=>{
     expect(kebabCase(a)).toStrictEqual(expected);
   });
@@ -39,6 +40,7 @@ describe ('truncateString function', ()=>{
     ['string manipulation functions', 10,'string man...'],
     ['STRING manipulation functions', 60 ,'STRING manipulation functions'],
     ['STRING-manipulation functions', 5,'STRIN...'],
+    ['STRIN', 5,'STRIN'],
   ])('truncateString(%s, %n)-> %s', (a, b, expected)=>{
     expect(truncateString(a, b)).toStrictEqual(expected);
   });
