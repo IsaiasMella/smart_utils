@@ -8,12 +8,12 @@ Cosas que faltan por hacer:
 - [x] Cambiar el nombre al proyecto porque sino NPM no nos va a dejar publicarlo por duplicidad de nombre (cada libreria debe tener un nombre unico si es publica)
 - [ ] Definir las utilidades que deberá tener la libreria
     - [x] Manipulación de Arrays
-    - [ ] Manipulación de Objetos
     - [x] Manipulación de Cadenas
-    - [ ] Manipulación de Números
     - [x] Utilidades de Funciones
-    - [ ] Utilidades de Promesas
     - [x] Utilidades de Navegador
+    - [ ] Manipulación de Objetos
+    - [ ] Manipulación de Números 
+    - [ ] Utilidades de Promesas
 - [X] Instalar y cinfigurar vitest
 - [x] Instalar y cinfigurar striker (libreria de mutation testing)
 - [ ] GitFlow
