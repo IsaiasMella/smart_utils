@@ -11,7 +11,8 @@
     "commitlint": "npx commitlint --edit $1",
     "test": "vitest run --coverage",
     "test:watch": "vitest --watch",
-    "test:mutator": "stryker run"
+    "test:mutator": "stryker run",
+    "watch": "tsx watch src/objects/getDeepProperty.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
@@ -24,6 +25,7 @@
     "eslint": "9.5.0",
     "globals": "^15.6.0",
     "husky": "^8.0.3",
+    "tsx": "^4.16.0",
     "typescript": "^5.5.2",
     "typescript-eslint": "^7.14.1",
     "vite": "^5.3.1",
