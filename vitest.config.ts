@@ -6,6 +6,8 @@ export default mergeConfig(
   defineConfig({
     test: {
       globals: true,
+      setupFiles: './src/tests/helpers',
+      environment: 'jsdom'
     }
   })
 );

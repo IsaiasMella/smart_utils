@@ -2,15 +2,15 @@ export const kebabCase = (str: string) => {
   return str
     .trim() // Remove whitespace from the beginning and end
     .toLowerCase() // Convert the entire string to lowercase
-    .replace(/[^a-z0-9]+/g, '-') // Replace spaces and non-alphanumeric characters with hyphens
-    .replace(/^-+|-+$/g, ''); // Remove extra hyphens from the beginning and end
+    .replace(/[^a-z0-9]/g, '-') // Replace spaces and non-alphanumeric characters with hyphens
+    .replace(/^-|-$/g, ''); // Remove extra hyphens from the beginning and end
 };
 
 export const camelCase = (str: string) => {
   // Remove leading and trailing whitespace and replace spaces, dashes, or underscores with spaces
   const words = str
     .trim()
-    .replace(/[\s-_]+/g, ' ')
+    .replace(/[\s-_]/g, ' ')
     .split(' ');
 
   // Convert all words to lowercase and capitalize the first letter of each word except the first
