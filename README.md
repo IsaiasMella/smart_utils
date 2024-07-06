@@ -11,10 +11,9 @@ Cosas que faltan por hacer:
     - [ ] Manipulación de Objetos
     - [x] Manipulación de Cadenas
     - [ ] Manipulación de Números
-    - [ ] Utilidades de Fecha y Tiempo
     - [x] Utilidades de Funciones
     - [ ] Utilidades de Promesas
-    - [ ] Utilidades de Navegador
+    - [x] Utilidades de Navegador
 - [X] Instalar y cinfigurar vitest
 - [x] Instalar y cinfigurar striker (libreria de mutation testing)
 - [ ] GitFlow
