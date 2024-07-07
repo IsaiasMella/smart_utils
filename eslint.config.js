@@ -24,6 +24,7 @@ export default [
       'no-var': 'error', // Prohíbe el uso de var
       'prefer-const': 'error', // Prefiere el uso de const sobre let cuando la variable no se reasigna
       'arrow-parens': ['error', 'always'], // Requiere paréntesis alrededor de los parámetros de las funciones flecha
+      'no-prototype-builtins': 'off',
     },
   },
   pluginJs.configs.recommended,
