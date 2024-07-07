@@ -11,8 +11,8 @@ Cosas que faltan por hacer:
     - [x] Manipulación de Cadenas
     - [x] Utilidades de Funciones
     - [x] Utilidades de Navegador
-    - [ ] Manipulación de Objetos
-    - [ ] Manipulación de Números 
+    - [x] Manipulación de Objetos
+    - [x] Manipulación de Números 
     - [ ] Utilidades de Promesas
 - [X] Instalar y cinfigurar vitest
 - [x] Instalar y cinfigurar striker (libreria de mutation testing)
