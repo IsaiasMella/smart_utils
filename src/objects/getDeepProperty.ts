@@ -8,6 +8,7 @@ export const getDeepProperty = <T>(
   obj: NestedObject<T>,
   prop: string
 ): T | undefined => {
+
   if (isEmpty(obj)) {
     throw new Error('The argument is empty');
   }
