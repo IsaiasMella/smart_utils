@@ -8,7 +8,6 @@ describe ('isArray function', ()=>{
     ['', false],
     [{}, false]
   ])('isArray(%d)-> %o', (a, expected)=>{
-    //@ts-expect-error We need to check all cases of arguments
     expect(isArray(a)).toStrictEqual(expected);
   });
 });
@@ -21,7 +20,6 @@ describe ('isEmpty function', ()=>{
     [{}, true],
     [[1], false]
   ])('isEmpty(%d)-> %o', (a, expected)=>{
-    //@ts-expect-error We need to check all cases of arguments
     expect(isEmpty(a)).toStrictEqual(expected);
   });
 });
