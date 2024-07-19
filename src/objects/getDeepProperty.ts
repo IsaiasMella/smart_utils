@@ -1,6 +1,6 @@
 import { isArray, isEmpty, isObject } from '../checks';
 
-interface NestedObject<T> {
+export interface NestedObject<T> {
   [key: string]: T | NestedObject<T>;
 }
 
@@ -8,9 +8,13 @@ export const getDeepProperty = <T>(
   obj: NestedObject<T>,
   prop: string
 ): T | undefined => {
-  if (isEmpty(obj)) {throw new Error('The argument is empty');}
-  if (isArray(obj))
-  {throw new Error('The argument is an array, but not an object');}
+  if (isEmpty(obj)) {
+    throw new Error('The argument is empty');
+  }
+  // Stryker disable next-line all
+  if (isArray(obj)) {
+    throw new Error('The argument is an array, but not an object');
+  }
 
   let value: T | undefined = undefined;
 

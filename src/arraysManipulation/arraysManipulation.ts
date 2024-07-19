@@ -9,7 +9,7 @@ export const chunk = <T>(array: T[], size: number): T[][] => {
     isArray(array) &&
     !isEmpty(array) &&
     typeof size === 'number' &&
-    size > 0 &&
+    size >= 1 &&
     size < array.length
   ) {
     while (index < array.length) {
