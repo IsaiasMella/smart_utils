@@ -1,7 +1,7 @@
 import { isArray, isEmpty, isObject } from '../checks';
 
 export const deepClone = <T>(source: T): T => {
-  if (isEmpty(source)) throw new Error('The argument is empty');
+  if (isEmpty(source)) {throw new Error('The argument is empty');}
 
   if (isArray(source)) {
     return (source as unknown as T[]).map((item: unknown) => {
